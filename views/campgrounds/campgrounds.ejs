@@ -1,4 +1,4 @@
-<%- include ('./partials/header') %>
+<%- include ('../partials/header') %>
 
 <div class="container">
     <header class="jumbotron">
@@ -14,15 +14,16 @@
             <div class="col-md-3 col-sm-6">
                 <div class="img-thumbnail mb-5">
                     <img class="img" src="<%= camp.image %>" alt="" style="width: 15rem; height: 10rem">
-                    <div class="caption">
+                    <div class="caption d-flex flex-column justify-content-center">
                         <h4 class="text-center"><%= camp.name %></h4>
-                        <a href="/campgrounds/<%= camp._id %>" class="btn btn-primary">View more</a>
+                        <div class="d-flex justify-content-center">
+                            <a  href="/campgrounds/<%= camp._id %>" class="btn btn-primary">View more</a>
+                        </div>
                     </div>
                 </div>
             </div>
         <% }) %>
     </div>
-
 </div>
 
-<%- include ('./partials/footer') %>
+<%- include ('../partials/footer') %>

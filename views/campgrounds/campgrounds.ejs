@@ -12,8 +12,8 @@
     <div class="row">
         <% campgrounds.forEach((camp) => { %>
             <div class="col-md-3 col-sm-6">
-                <div class="img-thumbnail mb-5">
-                    <img class="img" src="<%= camp.image %>" alt="" style="width: 15rem; height: 10rem">
+                <div class="img-thumbnail mb-5 campground-thumbnail-container">
+                    <img class="img img-responsive w-100 " src="<%= camp.image %>" alt="" style="width: 15rem; height: 10rem">
                     <div class="caption d-flex flex-column justify-content-center">
                         <h4 class="text-center"><%= camp.name %></h4>
                         <div class="d-flex justify-content-center">

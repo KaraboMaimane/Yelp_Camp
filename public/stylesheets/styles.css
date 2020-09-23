@@ -1,0 +1,7 @@
+.campground-thumbnail-container{
+    padding: 0 !important;
+}
+
+body > div > div > div > div > div{
+    padding: 1rem 0 !important;
+}

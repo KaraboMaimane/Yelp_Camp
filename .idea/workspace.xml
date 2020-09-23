@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15631b8d-b329-4f61-90a2-36efb38171af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/views/comments/new.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/campgrounds.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/campgrounds/campgrounds.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/new.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/campgrounds/new.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/view-campground.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/campgrounds/view-campground.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/campgrounds/campgrounds.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/campgrounds/campgrounds.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/campgrounds/view-campground.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/campgrounds/view-campground.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/header.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +14,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
@@ -73,8 +77,16 @@
       <option name="presentableId" value="Default" />
       <updated>1600812356437</updated>
       <workItem from="1600812357581" duration="3110000" />
-      <workItem from="1600894711633" duration="4116000" />
+      <workItem from="1600894711633" duration="6987000" />
     </task>
+    <task id="LOCAL-00001" summary="Catering for the comment creation and display">
+      <created>1600899440540</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600899440540</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,8 +94,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Catering for the comment creation and display" />
+    <option name="LAST_COMMIT_MESSAGE" value="Catering for the comment creation and display" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="267" y="23" key="CommitChangelistDialog2" timestamp="1600899440367">
+      <screen x="0" y="23" width="1440" height="809" />
+    </state>
+    <state x="267" y="23" key="CommitChangelistDialog2/0.23.1440.809/-235.-1057.1920.1057@0.23.1440.809" timestamp="1600899440367" />
     <state x="594" y="337" key="Github.ShareDialog" timestamp="1600812505120">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
@@ -92,33 +110,37 @@
       <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="437" y="52" key="Github.UntrackedFilesDialog/0.23.1440.812/-235.-1057.1920.1057@0.23.1440.812" timestamp="1600812529438" />
-    <state width="1419" height="203" key="GridCell.Tab.0.bottom" timestamp="1600899146160">
+    <state width="1419" height="203" key="GridCell.Tab.0.bottom" timestamp="1600902223317">
       <screen x="0" y="23" width="1440" height="809" />
     </state>
-    <state width="1419" height="203" key="GridCell.Tab.0.bottom/0.23.1440.809/-235.-1057.1920.1057@0.23.1440.809" timestamp="1600899146160" />
+    <state width="1419" height="203" key="GridCell.Tab.0.bottom/0.23.1440.809/-235.-1057.1920.1057@0.23.1440.809" timestamp="1600902223317" />
     <state width="1419" height="204" key="GridCell.Tab.0.bottom/0.23.1440.812/-235.-1057.1920.1057@0.23.1440.812" timestamp="1600814091692" />
     <state width="1419" height="204" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1600815629633" />
     <state width="1419" height="204" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1600846010344" />
-    <state width="1419" height="203" key="GridCell.Tab.0.center" timestamp="1600899146159">
+    <state width="1419" height="203" key="GridCell.Tab.0.center" timestamp="1600902223315">
       <screen x="0" y="23" width="1440" height="809" />
     </state>
-    <state width="1419" height="203" key="GridCell.Tab.0.center/0.23.1440.809/-235.-1057.1920.1057@0.23.1440.809" timestamp="1600899146159" />
+    <state width="1419" height="203" key="GridCell.Tab.0.center/0.23.1440.809/-235.-1057.1920.1057@0.23.1440.809" timestamp="1600902223315" />
     <state width="1419" height="204" key="GridCell.Tab.0.center/0.23.1440.812/-235.-1057.1920.1057@0.23.1440.812" timestamp="1600814091691" />
     <state width="1419" height="204" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1600815629632" />
     <state width="1419" height="204" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1600846010343" />
-    <state width="1419" height="203" key="GridCell.Tab.0.left" timestamp="1600899146159">
+    <state width="1419" height="203" key="GridCell.Tab.0.left" timestamp="1600902223314">
       <screen x="0" y="23" width="1440" height="809" />
     </state>
-    <state width="1419" height="203" key="GridCell.Tab.0.left/0.23.1440.809/-235.-1057.1920.1057@0.23.1440.809" timestamp="1600899146159" />
+    <state width="1419" height="203" key="GridCell.Tab.0.left/0.23.1440.809/-235.-1057.1920.1057@0.23.1440.809" timestamp="1600902223314" />
     <state width="1419" height="204" key="GridCell.Tab.0.left/0.23.1440.812/-235.-1057.1920.1057@0.23.1440.812" timestamp="1600814091690" />
     <state width="1419" height="204" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1600815629631" />
     <state width="1419" height="204" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1600846010342" />
-    <state width="1419" height="203" key="GridCell.Tab.0.right" timestamp="1600899146159">
+    <state width="1419" height="203" key="GridCell.Tab.0.right" timestamp="1600902223316">
       <screen x="0" y="23" width="1440" height="809" />
     </state>
-    <state width="1419" height="203" key="GridCell.Tab.0.right/0.23.1440.809/-235.-1057.1920.1057@0.23.1440.809" timestamp="1600899146159" />
+    <state width="1419" height="203" key="GridCell.Tab.0.right/0.23.1440.809/-235.-1057.1920.1057@0.23.1440.809" timestamp="1600902223316" />
     <state width="1419" height="204" key="GridCell.Tab.0.right/0.23.1440.812/-235.-1057.1920.1057@0.23.1440.812" timestamp="1600814091691" />
     <state width="1419" height="204" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1600815629632" />
     <state width="1419" height="204" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1600846010344" />
+    <state x="320" y="163" key="Vcs.Push.Dialog.v2" timestamp="1600899445057">
+      <screen x="0" y="23" width="1440" height="809" />
+    </state>
+    <state x="320" y="163" key="Vcs.Push.Dialog.v2/0.23.1440.809/-235.-1057.1920.1057@0.23.1440.809" timestamp="1600899445057" />
   </component>
 </project>
